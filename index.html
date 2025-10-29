@@ -2,13 +2,36 @@
 <html lang="zh-Hant">
 
 <head>
-    <meta charset="UTF-8">
-    <title>我的第一個 GitHub Pages 網站</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手機板網頁範例</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 30px;
+        }
+
+        .box {
+            width: 400px;
+            margin: 0 auto;
+            background: #efe;
+            padding: 20px;
+        }
+
+        @media (max-width:600px) {
+            .box {
+                width: 90%;
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>歡迎來到我的 GitHub Pages 網站！</h1>
-    <p>這是一個簡單的測試頁面。</p>
+    <div class="box">
+        <h1>歡迎！</h1>
+        <p>這是自適應的手機板網頁範例。</p>
+    </div>
 </body>
 
 </html>
